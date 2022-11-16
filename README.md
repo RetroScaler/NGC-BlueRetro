@@ -33,7 +33,7 @@ Orange Led on: NO.3 wireless controller connected
 
 White Led on: NO.4 wireless controller connected
 
-![](C:\Users\Administrator\Desktop\NGC-BlueRetro-main\NGC-BlueRetro-main\image\1.png)
+![](image/1.png)
 
 ##### Power LED
 
@@ -47,7 +47,7 @@ OFF: Bluetooth connected successfully
 
 Pulsing: Searching wireless controller
 
-![](C:\Users\Administrator\Desktop\NGC-BlueRetro-main\NGC-BlueRetro-main\image\3.png)
+![](image/3.png)
 
 ## BlueRetro Buttons Usage
 
