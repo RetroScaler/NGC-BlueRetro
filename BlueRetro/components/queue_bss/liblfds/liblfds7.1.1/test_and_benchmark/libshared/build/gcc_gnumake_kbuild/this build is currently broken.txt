@@ -1,0 +1,9 @@
+Good filename, eh? :-)
+
+The build is broken because the porting abstraction layer is incomplete.
+
+The Linux kernel has no function which offers "wait on thread handle
+until thread has termianted".  The user has to manage the sync himself.
+This breaks the libshared thread abstraction.
+
+

@@ -1,0 +1,11 @@
+Good filename, eh? :-)
+
+The build is broken in two ways.
+
+Firstly, the porting abstraction layer is incomplete - the high resolution
+         timers are missing.
+
+Secondly, there is a bug in the liblfds7.0.0 (7.0.0) header file, such that
+          it tries to use the wrong platform.  This will be fixed in 7.0.1,
+          a bug fix release.
+

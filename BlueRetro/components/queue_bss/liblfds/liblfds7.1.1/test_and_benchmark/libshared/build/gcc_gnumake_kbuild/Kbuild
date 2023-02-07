@@ -1,0 +1,32 @@
+lib-y :=
+
+lib-y += ../../src/libshared_ansi/libshared_ansi_strcat.o
+lib-y += ../../src/libshared_ansi/libshared_ansi_strcat_char.o
+lib-y += ../../src/libshared_ansi/libshared_ansi_strcat_number.o
+lib-y += ../../src/libshared_ansi/libshared_ansi_strcpy.o
+lib-y += ../../src/libshared_ansi/libshared_ansi_strlen.o
+
+lib-y += ../../src/libshared_memory/libshared_memory_add.o
+lib-y += ../../src/libshared_memory/libshared_memory_alloc.o
+lib-y += ../../src/libshared_memory/libshared_memory_cleanup.o
+lib-y += ../../src/libshared_memory/libshared_memory_init.o
+lib-y += ../../src/libshared_memory/libshared_memory_query.o
+lib-y += ../../src/libshared_memory/libshared_memory_rollback.o
+
+lib-y += ../../src/libshared_misc/libshared_misc_query.o
+
+lib-y += ../../src/libshared_porting_abstraction_layer/libshared_porting_abstraction_layer_thread_start.o
+lib-y += ../../src/libshared_porting_abstraction_layer/libshared_porting_abstraction_layer_thread_wait.o
+
+libs-y := ../../bin/
+
+ccflags-y := -I$(src)/../../inc
+ccflags-y += -I$(src)/../../inc/libshared
+ccflags-y += -DKERNEL_MODE
+ccflags-y += -DNDEBUG
+ccflags-y += -ffreestanding
+ccflags-y += -std=gnu89
+ccflags-y += -Wall
+ccflags-y += -Werror
+ccflags-y += -Wno-unknown-pragmas
+

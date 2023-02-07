@@ -1,0 +1,99 @@
+lib-y :=
+
+lib-y += ../../src/libtest_misc/libtest_misc_determine_erg.o
+lib-y += ../../src/libtest_misc/libtest_misc_globals.o
+lib-y += ../../src/libtest_misc/libtest_misc_memory_helpers.o
+lib-y += ../../src/libtest_misc/libtest_misc_pal_helpers.o
+lib-y += ../../src/libtest_misc/libtest_misc_query.o
+
+lib-y += ../../src/libtest_porting_abstraction_layer/libtest_porting_abstraction_layer_free.o
+lib-y += ../../src/libtest_porting_abstraction_layer/libtest_porting_abstraction_layer_get_full_logical_processor_set.o
+lib-y += ../../src/libtest_porting_abstraction_layer/libtest_porting_abstraction_layer_malloc.o
+
+lib-y += ../../src/libtest_results/libtest_results_cleanup.o
+lib-y += ../../src/libtest_results/libtest_results_get_result.o
+lib-y += ../../src/libtest_results/libtest_results_init.o
+lib-y += ../../src/libtest_results/libtest_results_put_result.o
+
+lib-y += ../../src/libtest_test/libtest_test_cleanup.o
+lib-y += ../../src/libtest_test/libtest_test_init.o
+lib-y += ../../src/libtest_test/libtest_test_run.o
+
+lib-y += ../../src/libtest_tests/libtest_tests_btree_addonly_unbalanced_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_btree_addonly_unbalanced_random_adds_fail.o
+lib-y += ../../src/libtest_tests/libtest_tests_btree_addonly_unbalanced_random_adds_fail_and_overwrite.o
+lib-y += ../../src/libtest_tests/libtest_tests_btree_addonly_unbalanced_random_adds_overwrite.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_ea_popping.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_ea_popping_and_pushing.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_ea_pushing.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_ea_rapid_popping_and_pushing.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_without_ea_popping.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_without_ea_popping_and_pushing.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_without_ea_pushing.o
+lib-y += ../../src/libtest_tests/libtest_tests_freelist_without_ea_rapid_popping_and_pushing.o
+lib-y += ../../src/libtest_tests/libtest_tests_hash_addonly_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_hash_addonly_iterate.o
+lib-y += ../../src/libtest_tests/libtest_tests_hash_addonly_random_adds_fail.o
+lib-y += ../../src/libtest_tests/libtest_tests_hash_addonly_fail_and_overwrite.o
+lib-y += ../../src/libtest_tests/libtest_tests_hash_addonly_random_adds_overwrite.o
+lib-y += ../../src/libtest_tests/libtest_tests_list_addonly_singlylinked_ordered_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_list_addonly_singlylinked_ordered_new_ordered.o
+lib-y += ../../src/libtest_tests/libtest_tests_list_addonly_singlylinked_ordered_new_ordered_with_cursor.o
+lib-y += ../../src/libtest_tests/libtest_tests_list_addonly_singlylinked_unordered_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_list_addonly_singlylinked_unordered_new_after.o
+lib-y += ../../src/libtest_tests/libtest_tests_list_addonly_singlylinked_unordered_new_end.o
+lib-y += ../../src/libtest_tests/libtest_tests_list_addonly_singlylinked_unordered_new_start.o
+lib-y += ../../src/libtest_tests/libtest_tests_porting_abstraction_layer_atomic_add.o
+lib-y += ../../src/libtest_tests/libtest_tests_porting_abstraction_layer_atomic_cas.o
+lib-y += ../../src/libtest_tests/libtest_tests_porting_abstraction_layer_atomic_dwcas.o
+lib-y += ../../src/libtest_tests/libtest_tests_porting_abstraction_layer_atomic_exchange.o
+lib-y += ../../src/libtest_tests/libtest_tests_prng_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_prng_generate.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_manyproducer_manyconsumer_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_manyproducer_manyconsumer_count.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_manyproducer_manyconsumer_enqueuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_manyproducer_manyconsumer_dequeuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_manyproducer_manyconsumer_enqueuing_and_dequeuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_manyproducer_manyconsumer_rapid_enqueuing_and_dequeuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_singleproducer_singleconsumer_dequeuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_singleproducer_singleconsumer_enqueuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_bounded_singleproducer_singleconsumer_enqueuing_and_dequeuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_unbounded_manyproducer_manyconsumer_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_unbounded_manyproducer_manyconsumer_dequeuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_unbounded_manyproducer_manyconsumer_enqueuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_unbounded_manyproducer_manyconsumer_enqueuing_and_dequeuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_unbounded_manyproducer_manyconsumer_enqueuing_and_dequeuing_one_element.o
+lib-y += ../../src/libtest_tests/libtest_tests_queue_unbounded_manyproducer_manyconsumer_rapid_enqueuing_and_dequeuing.o
+lib-y += ../../src/libtest_tests/libtest_tests_ringbuffer_reading.o
+lib-y += ../../src/libtest_tests/libtest_tests_ringbuffer_reading_and_writing.o
+lib-y += ../../src/libtest_tests/libtest_tests_ringbuffer_writing.o
+lib-y += ../../src/libtest_tests/libtest_tests_stack_alignment.o
+lib-y += ../../src/libtest_tests/libtest_tests_stack_popping.o
+lib-y += ../../src/libtest_tests/libtest_tests_stack_popping_and_pushing.o
+lib-y += ../../src/libtest_tests/libtest_tests_stack_pushing.o
+lib-y += ../../src/libtest_tests/libtest_tests_stack_rapid_popping_and_pushing.o
+
+lib-y += ../../src/libtest_testsuite/libtest_testsuite_cleanup.o
+lib-y += ../../src/libtest_testsuite/libtest_testsuite_init.o
+lib-y += ../../src/libtest_testsuite/libtest_testsuite_run.o
+
+lib-y += ../../src/libtest_threadset/libtest_threadset_add.o
+lib-y += ../../src/libtest_threadset/libtest_threadset_cleanup.o
+lib-y += ../../src/libtest_threadset/libtest_threadset_init.o
+lib-y += ../../src/libtest_threadset/libtest_threadset_operations.o
+
+libs-y := ../../bin/
+
+ccflags-y := -I$(src)/../../inc
+ccflags-y += -I$(src)/../../inc/liblfds711
+ccflags-y += -DKERNEL_MODE
+ccflags-y += -DNDEBUG
+ccflags-y += -fno-strict-aliasing
+ccflags-y += -std=gnu89
+ccflags-y += -Wall
+ccflags-y += -Werror
+ccflags-y += -Wno-unknown-pragmas
+ccflags-y += -Wno-unused-but-set-variable
+ccflags-y += -Wno-uninitialized
+

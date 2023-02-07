@@ -1,0 +1,130 @@
+lib-y :=
+
+lib-y += ../../src/libbenchmark_benchmarkinstance/libbenchmark_benchmarkinstance_cleanup.o
+lib-y += ../../src/libbenchmark_benchmarkinstance/libbenchmark_benchmarkinstance_init.o
+lib-y += ../../src/libbenchmark_benchmarkinstance/libbenchmark_benchmarkinstance_run.o
+
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_gcc_spinlock_atomic_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_gcc_spinlock_sync_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_liblfds700_lockfree_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_liblfds711_lockfree_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_msvc_spinlock_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_pthread_mutex_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_pthread_rwlock_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_pthread_spinlock_process_private_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_pthread_spinlock_process_shared_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_windows_critical_section_readn_writen.o
+lib-y += ../../src/libbenchmark_benchmarks_btree_au_readn_writen/libbenchmark_benchmarks_btree_au_windows_mutex_readn_writen.o
+
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_gcc_spinlock_atomic_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_gcc_spinlock_sync_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_liblfds700_lockfree_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_liblfds711_lockfree_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_msvc_spinlock_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_pthread_mutex_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_pthread_rwlock_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_pthread_spinlock_process_private_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_pthread_spinlock_process_shared_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_windows_critical_section_push1_then_pop1.o
+lib-y += ../../src/libbenchmark_benchmarks_freelist_push1_then_pop1/libbenchmark_benchmarks_freelist_windows_mutex_push1_then_pop1.o
+
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_gcc_spinlock_atomic_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_gcc_spinlock_sync_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_liblfds700_lockfree_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_liblfds711_lockfree_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_msvc_spinlock_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_pthread_mutex_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_pthread_rwlock_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_pthread_spinlock_process_private_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_pthread_spinlock_process_shared_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_windows_critical_section_enqueue1_dequeue1.o
+lib-y += ../../src/libbenchmark_benchmarks_queue_umm_enqueue1_then_dequeue1/libbenchmark_benchmarks_queue_umm_windows_mutex_enqueue1_dequeue1.o
+
+lib-y += ../../src/libbenchmark_benchmarkset/libbenchmark_benchmarkset_add.o
+lib-y += ../../src/libbenchmark_benchmarkset/libbenchmark_benchmarkset_cleanup.o
+lib-y += ../../src/libbenchmark_benchmarkset/libbenchmark_benchmarkset_gnuplot.o
+lib-y += ../../src/libbenchmark_benchmarkset/libbenchmark_benchmarkset_init.o
+lib-y += ../../src/libbenchmark_benchmarkset/libbenchmark_benchmarkset_run.o
+
+lib-y += ../../src/libbenchmark_benchmarksuite/libbenchmark_benchmarksuite_add.o
+lib-y += ../../src/libbenchmark_benchmarksuite/libbenchmark_benchmarksuite_cleanup.o
+lib-y += ../../src/libbenchmark_benchmarksuite/libbenchmark_benchmarksuite_gnuplot.o
+lib-y += ../../src/libbenchmark_benchmarksuite/libbenchmark_benchmarksuite_init.o
+lib-y += ../../src/libbenchmark_benchmarksuite/libbenchmark_benchmarksuite_run.o
+
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_gcc_spinlock_atomic.o
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_gcc_spinlock_sync.o
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_msvc_spinlock.o
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_pthread_mutex.o
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_pthread_rwlock.o
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_pthread_spinlock_process_private.o
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_pthread_spinlock_process_shared.o
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_windows_critical_section.o
+lib-y += ../../src/libbenchmark_datastructures_btree_au/libbenchmark_datastructure_btree_au_windows_mutex.o
+
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_gcc_spinlock_atomic.o
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_gcc_spinlock_sync.o
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_msvc_spinlock.o
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_pthread_mutex.o
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_pthread_rwlock.o
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_pthread_spinlock_process_private.o
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_pthread_spinlock_process_shared.o
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_windows_critical_section.o
+lib-y += ../../src/libbenchmark_datastructures_freelist/libbenchmark_datastructure_freelist_windows_mutex.o
+
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_gcc_spinlock_atomic.o
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_gcc_spinlock_sync.o
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_msvc_spinlock.o
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_pthread_mutex.o
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_pthread_rwlock.o
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_pthread_spinlock_process_private.o
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_pthread_spinlock_process_shared.o
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_windows_critical_section.o
+lib-y += ../../src/libbenchmark_datastructures_queue_umm/libbenchmark_datastructure_queue_umm_windows_mutex.o
+
+lib-y += ../../src/libbenchmark_misc/libbenchmark_misc_globals.o
+lib-y += ../../src/libbenchmark_misc/libbenchmark_misc_pal_helpers.o
+lib-y += ../../src/libbenchmark_misc/libbenchmark_misc_query.o
+
+lib-y += ../../src/libbenchmark_porting_abstraction_layer/libbenchmark_porting_abstraction_layer_populate_topology.o
+lib-y += ../../src/libbenchmark_porting_abstraction_layer/libbenchmark_porting_abstraction_layer_print_string.o
+
+lib-y += ../../src/libbenchmark_results/libbenchmark_results_cleanup.o
+lib-y += ../../src/libbenchmark_results/libbenchmark_results_compare.o
+lib-y += ../../src/libbenchmark_results/libbenchmark_results_get_result.o
+lib-y += ../../src/libbenchmark_results/libbenchmark_results_init.o
+lib-y += ../../src/libbenchmark_results/libbenchmark_results_put_result.o
+
+lib-y += ../../src/libbenchmark_threadset/libbenchmark_threadset_cleanup.o
+lib-y += ../../src/libbenchmark_threadset/libbenchmark_threadset_init.o
+lib-y += ../../src/libbenchmark_threadset/libbenchmark_threadset_operations.o
+
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_cleanup.o
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_compare.o
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_init.o
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_insert.o
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_iterate.o
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_lpsets.o
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_numa.o
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_query.o
+lib-y += ../../src/libbenchmark_topology/libbenchmark_topology_string.o
+
+lib-y += ../../src/libbenchmark_topology_node/libbenchmark_topology_node_cleanup.o
+lib-y += ../../src/libbenchmark_topology_node/libbenchmark_topology_node_compare.o
+lib-y += ../../src/libbenchmark_topology_node/libbenchmark_topology_node_init.o
+lib-y += ../../src/libbenchmark_topology_node/libbenchmark_topology_node_cleanup.o
+lib-y += ../../src/libbenchmark_topology_node/libbenchmark_topology_node_compare.o
+lib-y += ../../src/libbenchmark_topology_node/libbenchmark_topology_node_init.o
+
+libs-y := ../../bin/
+
+ccflags-y := -I$(src)/../../inc
+ccflags-y += -I$(src)/../../inc/liblfds711
+ccflags-y += -DKERNEL_MODE
+ccflags-y += -DNDEBUG
+ccflags-y += -fno-strict-aliasing
+ccflags-y += -std=gnu89
+ccflags-y += -Wall
+ccflags-y += -Werror
+ccflags-y += -Wno-unknown-pragmas
+

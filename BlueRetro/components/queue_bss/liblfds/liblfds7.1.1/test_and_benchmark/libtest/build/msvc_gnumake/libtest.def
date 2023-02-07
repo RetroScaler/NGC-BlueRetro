@@ -1,0 +1,14 @@
+EXPORTS
+
+libtest_results_init = libtest_results_init
+libtest_results_cleanup = libtest_results_cleanup
+libtest_results_get_result = libtest_results_get_result
+
+libtest_testsuite_init = libtest_testsuite_init
+libtest_testsuite_cleanup = libtest_testsuite_cleanup
+libtest_testsuite_run = libtest_testsuite_run
+
+libtest_misc_pal_helper_add_logical_processor_to_list_of_logical_processors = libtest_misc_pal_helper_add_logical_processor_to_list_of_logical_processors
+libtest_misc_determine_erg = libtest_misc_determine_erg
+libtest_misc_query = libtest_misc_query
+

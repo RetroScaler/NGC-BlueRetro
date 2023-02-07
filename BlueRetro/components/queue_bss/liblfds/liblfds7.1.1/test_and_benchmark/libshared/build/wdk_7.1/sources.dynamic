@@ -1,0 +1,25 @@
+MSC_WARNING_LEVEL = /WX /wd4127 /W4
+DLLDEF            = ../libshared.def
+TARGETNAME        = libshared
+TARGETPATH        = ../../../bin/
+TARGETTYPE        = EXPORT_DRIVER
+UMTYPE            = nt
+USER_C_FLAGS      = /DKERNEL_MODE /DNDEBUG
+
+INCLUDES = ../../../inc/
+SOURCES  = libshared_ansi_strcat.c \
+           libshared_ansi_strcat_char.c \
+           libshared_ansi_strcat_number.c \
+           libshared_ansi_strcpy.c \
+           libshared_ansi_strlen.c \
+           libshared_memory_add.c \
+           libshared_memory_alloc.c \
+           libshared_memory_cleanup.c \
+           libshared_memory_init.c \
+           libshared_memory_query.c \
+           libshared_memory_rollback.c \
+           libshared_misc_query.c \
+           libshared_porting_abstraction_layer_thread_start.c \
+           libshared_porting_abstraction_layer_thread_wait.c \
+           driver_entry.c
+
