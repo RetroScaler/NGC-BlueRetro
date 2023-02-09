@@ -35,20 +35,6 @@ White Led on: NO.4 wireless controller connected
 
 ![](image/1.png)
 
-##### Power LED
-
-FULLY ON: Power on
-
-##### SYNC LED
-
-FULLY ON: Bluetooth failure
-
-OFF: Bluetooth connected successfully
-
-Pulsing: Searching wireless controller
-
-![](image/3.png)
-
 ## BlueRetro Buttons Usage
 
 ##### “EN” Button
@@ -73,7 +59,7 @@ BT pairing keys.
 
 1. Set up your development environment, please follow the
 
-   [BlueRetroRoot]: https://github.com/darthcloud/BlueRetroRoot
+   [BlueRetroRoot](https://github.com/darthcloud/BlueRetroRoot)
 
 2. Building
 
@@ -93,5 +79,7 @@ BT pairing keys.
   1) Download the  [NodeMCU-PyFlasher](https://github.com/marcelstoer/nodemcu-pyflasher/releases)and [Blueretro firmware](https://github.com/RetroScaler/NGC-BlueRetro/releases/tag/blueretro)
   3) Connect Blueretro to computer using type-c cable. Select proper COM portfor your computer. And choose the latest BlueRetro firmware.
   4) Click Flash NodeMCU.
-  image/nodemcu3.png
+  
+  ![](image/nodemcu3.png)
+
    
