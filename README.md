@@ -77,8 +77,8 @@ BT pairing keys.
    ```
   ## How to update the firmware
   1) Download the  [NodeMCU-PyFlasher](https://github.com/marcelstoer/nodemcu-pyflasher/releases)and [Blueretro firmware](https://github.com/RetroScaler/NGC-BlueRetro/releases/tag/blueretro)
-  2)Connect Blueretro to computer using type-c cable. Select proper COM portfor your computer. And choose the latest BlueRetro firmware.
-  3)Click Flash NodeMCU.
+  2) Connect Blueretro to computer using type-c cable. Select proper COM portfor your computer. And choose the latest BlueRetro firmware.
+  3) Click Flash NodeMCU.
   
   ![](image/nodemcu3.png)
 
